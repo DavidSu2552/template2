@@ -35,7 +35,7 @@ body {
   }
 #logo {
     display: inline-block;
-	margin-left: 20px;
+	margin-left: 0px;
 }
 #header #logo a {
 	color: #c4c4c4;
@@ -59,7 +59,54 @@ body {
     align-items: center;
 }
 #banner {
-    height: 408px;
-    width: 1032px;
-    background-color: blueviolet
+    width:100%;
+    min-height:800px;
+    background: url("image/SYNTH.jpg");
+    background-size:cover;
+    position: relative;
+}
+#bcontent {
+    background:rgba(255,255,255,0.7);
+    width:30%;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:35%;
+    text-align: center;
+}
+#bcontent div {
+    text-align: center;
+    padding:30px 50px;
+}
+#bcontent div span{
+    color: black;
+    font-size: 24px;
+}
+#bcontent span {
+	color: #4b4b4b;
+    font-size: 26px;
+    letter-spacing: 2px;
+	width: 76px;
+	text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+#bcontent a{
+    display: inline-block;
+    background:black;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.centerbar {
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background: #c4c4c4;
+    text-align: center;
+}
+.centerbar p{
+    color: black;
+    text-transform: uppercase;
 }
