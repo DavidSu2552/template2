@@ -7,6 +7,7 @@ body {
 	font-family: 'OpenSans';
 	margin: 0;
 }
+/* header */
 #nav {
     display: inline-block;
     list-style: none;
@@ -58,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* banner */
 #banner {
     width:100%;
     min-height:800px;
@@ -99,6 +101,7 @@ body {
     text-decoration: none;
     padding: 20px 40px;
 }
+/* centerbar */
 .centerbar {
     width:100%;
     height:40px;
@@ -110,12 +113,13 @@ body {
     color: black;
     text-transform: uppercase;
 }
+/* content */
 .content {
     height:1080px;
     margin: 10 10px;
 }
 .yrrd {
-    padding: 30px 0px 10px 0px;
+    padding: 60px 0px 10px 0px;
     text-align: center
 }
 .yrrd p {
@@ -137,6 +141,7 @@ body {
 }
 .mushavit {
     padding: 20 40px;
+    padding-bottom: 60px; 
     text-align: center
 }
 .mushavit p {
@@ -144,4 +149,71 @@ body {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
+}
+.contentpic {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.piccase {
+    width: 60%;
+    display: inline-block;
+}
+#pic1 {
+    width: 30%;
+    height: 400px;
+    padding-left: 1%;
+    margin-right: 2%;
+    background: #4b4b4b;
+    display: inline-block;
+}
+#pic2 {
+    width: 30%;
+    height: 400px;
+    padding-left: 1%;
+    margin-right: 2%;
+    background: #4b4b4b;
+    display: inline-block;
+}
+#pic3 {
+    width: 30%;
+    height: 400px;
+    padding-left: 1%;
+    margin-right: 2%;
+    background: #4b4b4b;
+    display: inline-block;
+}
+/* footer */
+.footer {
+    background-color: rgb(83, 81, 82);
+}
+.fcontent {
+    text-align: center;
+    padding: 20px 0px;
+}
+.fcase {
+    width: 60%;
+    display: inline-block;
+}
+#f1 {
+    width: 30%;
+    margin-left: 2.5%;
+    display: inline-block;
+    color: #ffffff;
+}
+#f2 {
+    width: 30%;
+    margin-left: 2.5%;
+    display: inline-block;
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+#f3 {
+    width: 30%;
+    margin-left: 2.5%;
+    display: inline-block;
+    color: #ffffff;
+}
+#fspan {
+    text-align: center;
+    color: #ffffff;
 }
